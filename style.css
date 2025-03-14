@@ -3,7 +3,7 @@
 }
 
 .menu ul li {
-    margin-left: -470px;
+    margin-left: -740px;
     margin-top: 20px;
     margin-right: 500px;
     list-style-type: none;
@@ -27,6 +27,7 @@
 }
 
 .menu ul li a {
+    display: block;
     text-decoration: none;
     transition: color 0.3s, font-size 0.3s;
   }
@@ -44,4 +45,15 @@ body {
     position: relative;
     top: 20px;
     border: 2px solid blue;
+}
+
+.boat {
+    width: 4%;
+    margin-top: -70px;
+}
+
+.school {
+    display: block;
+    margin: 0 auto;
+    margin-top: 160px;
 }
